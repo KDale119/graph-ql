@@ -1,0 +1,10 @@
+mutation {
+  createAlbum(input: {
+    title: "Hello"
+    userId: 65
+  }) {
+    id
+    title
+    userId
+  }
+}

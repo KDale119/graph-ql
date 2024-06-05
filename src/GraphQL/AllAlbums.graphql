@@ -1,0 +1,12 @@
+query {
+  albums {
+    data{
+      __typename
+      id
+      title
+      user {
+        name
+      }
+    }
+  }
+}
